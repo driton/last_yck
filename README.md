@@ -87,7 +87,7 @@ Enkela Osmani - Mentor,
 Fitore Salihu - Mentor,
 
 
-Childerns:
+Childrens:
 Enkelena Haxhiu, 
 Leonard Ibrahimi, 
 Lorenc Ramadani,
