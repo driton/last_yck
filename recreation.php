@@ -1,8 +1,9 @@
 <?php 
-//Perfshirja e headerit
+
+//Including the header file
 include("include/header.php"); 
 
-//Perfshirja e fajlit te funksioneve
+//Including the functions file
 require_once("include/functions.php");
  ?>        
          <div class="container">
@@ -10,12 +11,13 @@ require_once("include/functions.php");
                   <div class="form">
                      <div class="col-md-6 col-lg-6 col-sm-6">
                       <?php 
-                        //Selektimi i funksionit per Rekreacione
+                        
+						//Select function for Recreation module
                       selectCityRecreation(); 
                       ?>
                      </div>
                      <div class="col-md-6 col-lg-6 col-sm-6">
-                     <!-- Ketu behet mbishrimi i kategorive permes funksionit te ajax -->
+                     <!-- Here we override categories through Ajax function -->
                         <div id="category">
                           <select class="form-control" disabled="true">
                            <option>Select</option>

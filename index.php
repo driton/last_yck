@@ -1,7 +1,7 @@
 <?php
 //index.php is the main file 
 
-//Thija e falit header.php, ne te cilin eshte thirrur edhe lidhja me Database dhe te gjitha funksionet e kriuara nga ne
+//Calling header.php file, in wich is connection with Database is called and all created function from us.
  include("include/header.php"); 
  ?>    
 
@@ -11,14 +11,15 @@
                      <div class="col-md-6 col-sm-6 col-lg-6">
 
                       <?php 
-                      //funksioni per selektim te qyteteve
+					  //Function for city selection
                       select(); 
 
                       ?>
                      </div>
                      <div class="col-md-6 col-sm-6 col-lg-6">
                         <div id="neighborhood">
-                        <!-- rifreskohen te dhenat me Ajax nga funksioni neighborhood -->
+						
+                        <!-- reload data with AJAX from neighborhood function -->
                           <select class="form-control" disabled="true">
                            <option>Select</option>
                         </select><!-- /.neighborhoods -->
@@ -99,7 +100,8 @@
       //google.maps.event.addDomListener(window, 'load', initialize);
 
       </script>
-      <?php 
-      //Perfshirja e footer-it, ne te cilin eshte funksioni per mbyllje te databazes
+      <?php
+	  
+	  //Including footer file, where the database connection is closed
       include("include/footer.php"); 
       ?>        

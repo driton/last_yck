@@ -1,12 +1,12 @@
 <?php
 
-//Merr city from index.php dhe e ruan ne variablen city ($city)
+//Get the city from index.php and than we save in ($city) variable
 $city = $_GET['city'];
 
-//Perfshirja e fajlit te lidhjes
+//Including the connection file
 require_once("include/connection.php");
 
-//Perfshirja e fajlit te funksioneve
+//Including the functions file
 require_once("include/functions.php");
 
 neighborhood($city); 

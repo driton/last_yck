@@ -8,7 +8,7 @@ $connection=mysql_connect(HOST,USER,PASSWORD);
 
 //Check if the connection dies
 if(!$connection){
-die("Lidhja me HOST deshtoi");
+die("Connection with host failed");
 }
 //Selection of the database
 $db = mysql_select_db("yck");
