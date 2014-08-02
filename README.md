@@ -87,7 +87,7 @@ Enkela Osmani - Mentor,
 Fitore Salihu - Mentor,
 
 
-Childern:
+Childerns:
 Enkelena Haxhiu, 
 Leonard Ibrahimi, 
 Lorenc Ramadani,
