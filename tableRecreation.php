@@ -1,17 +1,18 @@
 <?php
 
-//Marrja e vleres se qytetit dhe ruajtja e saj ne variblen e meposhtme
+//Get the city value and save the value in the variable showed below ($city)
 $city = $_GET['city'];
 
-//Marrja e vleres se kategorise dhe ruajtja e saj ne variblen e meposhtme
+//Get category value and save the value in the variable $category
 $category = $_GET['category'];
 
-//Perfshirja e fajllit te lidhjes
+//Include the connection file
 require_once("include/connection.php");
 
-//Perfshirja e fajllit te funksioneve
+//Include the functions file
 require_once("include/functions.php");
 
 //Thirrja e funksionit per paraqitje te te dhenave sipas dy argumenteve (city & category)
+//Call the function for appearing based from two arguments( city & category)
 tableRecreation($city, $category); 
  ?>

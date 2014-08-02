@@ -1,13 +1,14 @@
  <?php 
-//Marrja e vleres se neighborhood dhe ruajtja ne varaibel
+
+//Get the neighborhood value and save in the variable
 $neighborhood=$_GET['neighborhood'];
 
-//Perfshirja e lidhjes
+//Include the connection
 include('include/connection.php');
 
-//Perfshirja e fajlit te funksioneve
+//Include functions
 include('include/functions.php');
 
-//Eshte thirrur funksioni per vizatim apo paraqitje te te dhenave, ne forme tabelare sipas lagjeve. Fajli functions.php
+//Here we called the function for table drawing or data appearance, in table form based from neighborhoods. The functions.php file
 tabela($neighborhood);
  ?>

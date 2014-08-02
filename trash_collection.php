@@ -1,5 +1,6 @@
 		  <?php 
-        //Perfshirja e fajlit header
+        
+		//Include the header file
         include ("include/header.php");
 
 
