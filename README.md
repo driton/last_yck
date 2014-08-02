@@ -78,10 +78,14 @@ and upload photos of areas where the waste has not been collected.
 ################################################################################ 
 List of people who have helped on this projec
 ################################################################################ 
-Driton Haxhiu - Team leader
-Doruntina Sadiku - Mentor
-Enkela Osmani - Mentor
-Fitore Salihu - Mentor
+Driton Haxhiu - Team leader,
+
+Doruntina Sadiku - Mentor,
+
+Enkela Osmani - Mentor,
+
+Fitore Salihu - Mentor,
+
 
 Childern:
 Enkelena Haxhiu, 
