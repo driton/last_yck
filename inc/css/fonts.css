@@ -1,0 +1,25 @@
+@font-face
+{
+font-family: dosis bold;
+src: url(../fonts/Dosis-Bold.ttf);
+}
+@font-face
+{
+font-family: dosis;
+src: url(../fonts/Dosis-Book.ttf);
+}
+@font-face
+{
+font-family: dosis bolder;
+src: url(../fontsDosis-ExtraBold.ttf);
+}
+@font-face
+{
+font-family: dosis lighter;
+src: url(../fonts/Dosis-ExtraLight.ttf);
+}
+@font-face
+{
+font-family: dosis light;
+src: url(../fonts/Dosis-Light.ttf);
+}
