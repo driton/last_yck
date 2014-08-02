@@ -1,15 +1,15 @@
 <?php
 
-//Perfshirja e konstanteve
+//Including of the constants
 require_once("constant.php");
 
-//Funksioni i lidhjes me host
+//Function for host connection
 $connection=mysql_connect(HOST,USER,PASSWORD);
 
-//Kontrollon, nese lidhja deshton
+//Check if the connection dies
 if(!$connection){
 die("Lidhja me HOST deshtoi");
 }
-//Perzgjedhja e databazes
+//Selection of the database
 $db = mysql_select_db("yck");
 ?>

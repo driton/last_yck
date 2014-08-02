@@ -1,4 +1,4 @@
-// Funksioni per thirrjen e tabeles me AJAX
+//Function to call table with AJAX
 function showTable(){
 var xmlhttp;
 if (window.XMLHttpRequest)
@@ -24,8 +24,7 @@ xmlhttp.open("GET","table.php?city="+city+"&neighborhood="+neighborhood,true);
 xmlhttp.send();
 }
 
-
-//Funksioni per filtrimin e te dhenave te lagjes, duke u bazuar ne qytet
+//Function for filtering the neighborhood data, based from the city
 function filterNeighborhood(){
 var xmlhttp;
 if (window.XMLHttpRequest)

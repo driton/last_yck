@@ -1,10 +1,11 @@
 <?php
-//Definimi i konstantes per Host
+
+//Defining constant for user
 define("HOST","localhost");
 
-//Definimi i konstantes per user
+//Defining constant for user
 define("USER","root");
 
-//Definimi i konstantes per password
+//Defining constant for password
 define("PASSWORD","cameleon13#");
 ?> 

@@ -1,8 +1,9 @@
-<?php 
-//Perfshirja e fajllit ne te cilin eshte bere lidhja me databaze 
+<?php
+
+//Including of the file where connection was initiated with databaze
 require_once("connection.php"); 
 
-//Perfshirja e te gjitha funksioneve ne file 
+//Including of all the functions in file 
 require_once("include/functions.php");
 ?>
 <html lang="en">
@@ -12,15 +13,14 @@ require_once("include/functions.php");
          <meta name="viewport" content="width=device-width, initial-scale=1">
          <title>Young Coders Kosovo</title>
 
-
-
-         <!-- CSS Fajllat qe gjenden ne folderin inc -> css -->
+		 
+         <!--CSS files that are located in folder inc -> css-->
          <link href="inc/css/fonts.css" rel="stylesheet">
          <link href="inc/css/bootstrap.css" rel="stylesheet">
          <link href="inc/css/font-awesome.css" rel="stylesheet">
          <link href="inc/css/style.css" rel="stylesheet">
-
-         <!-- JavaScript Fajllat qe gjenden ne folderin js -> css -->
+		 
+         <!--JavaScript files that are located in folder js  -> css-->
          <script src="inc/js/script.js"></script>
          <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
       </head>
@@ -34,6 +34,7 @@ require_once("include/functions.php");
                <div class="col-md-6 col-sm-6 col-lg-6"></div>
                <div class="col-md-3 col-sm-3 col-lg-3">
                   <div class="logo">
+	
                     <!--  <img src="inc/img/logo.png"> -->
                   </div>
                </div>
