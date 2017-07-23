@@ -78,6 +78,7 @@ and upload photos of areas where the waste has not been collected.
 ################################################################################ 
 List of people who have helped on this projec
 ################################################################################ 
+
 Driton Haxhiu - Team leader,
 
 Doruntina Sadiku - Mentor,
@@ -104,4 +105,3 @@ Jozef Komani
 ################################################################################ 
 If you have any questions please contact us via 
 dritoni.h@gmail.com
-doruntina.sadiku@gmail.com
